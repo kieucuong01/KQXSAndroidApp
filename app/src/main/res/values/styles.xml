@@ -1,0 +1,123 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <!--Style Form-->
+    <style name="StyleForm">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:background">@drawable/border_form</item>
+    </style>
+    <!--ButtonAction-->
+    <style name="StyleButtonAction">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">@drawable/border_color_button</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+    <!--Button Exhibiton-->
+    <style name="StyleButtonExhibiton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/main_color</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+    <!--TexView-->
+    <style name="StyleTexView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/main_text_color</item>
+        <item name="android:textSize">15sp</item>
+
+    </style>
+    <!--TextBox-->
+    <style name="StyleTextBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textSize">13dp</item>
+        <item name="android:textColor">@color/gray_color_form</item>
+        <item name="android:background">@drawable/design_textbox</item>
+    </style>
+
+    <!--Label-->
+    <style name="StyleLabel">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/main_color</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+    <!--Style Note-->
+    <style name="StyleNote">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">top</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textColor">@color/gray_color_form</item>
+        <item name="android:background">@drawable/design_textbox</item>
+    </style>
+
+    <style name="StyleRadioButton">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <!--Model Text-->
+    <style name="StyleText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:gravity">center</item>
+
+    </style>
+    <!--Style Button Order-->
+    <style name="StyleButtonOrder">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/border_color_button_order</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_color_order</item>
+    </style>
+
+    <style name="MyButton" parent="Theme.AppCompat.Light">
+        <item name="colorControlHighlight">@color/colorPrimaryhalf</item>
+        <item name="colorButtonNormal">@color/colorPrimaryDark</item>
+    </style>
+    <!--Style Button in HOMEMAIN-->
+    <style name="HomeButton">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/word_big_size</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_width">200dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

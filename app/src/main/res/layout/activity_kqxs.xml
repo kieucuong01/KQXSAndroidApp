@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ptuddd.app.android.KQXSapp.ui.activity.KQXSActivity">
+
+
+    <EditText
+        android:id="@+id/editTextDate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="10dp"
+        android:focusable="false"
+        android:textAlignment="center"
+        android:hint="@string/choose_date"
+        android:ems="10"
+        android:inputType="date"
+     />
+    
+    <LinearLayout
+        android:id="@+id/layoutProvinces"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="@string/prize"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:textSize="@dimen/text_size"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/province"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:text="@string/province"
+            android:textColor="@color/white"
+            android:background="@color/colorPrimary"
+            android:textSize="@dimen/text_size"
+            android:textAlignment="center"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
+
+    <include layout="@layout/content_main" />
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_margin="@dimen/horizontal_margin"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/imgHome"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <Button
+            style="@style/HomeButton"
+            android:text="@string/start"
+            android:background="@drawable/background_home_start"
+            android:id="@+id/btnXemKQXS"
+            android:fontFamily="sans-serif-condensed"
+            android:drawableLeft="@drawable/start"
+            android:paddingLeft="5dp"
+            />
+        <Button
+            style="@style/HomeButton"
+            android:background="@drawable/background_home_exit"
+            android:text="@string/exit"
+            android:id="@+id/btnExit"
+            android:fontFamily="sans-serif-condensed"
+            android:drawableLeft="@drawable/exit"
+            android:paddingLeft="5dp"
+            />
+    </LinearLayout>
+</LinearLayout>

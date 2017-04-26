@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">KQXS App</string>
+    <string name="home">Home</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <!--Home-->
+    <string name="start">XEM KQXS</string>
+    <string name="exit">EXIT</string>
+
+    <!--KQXS -->
+    <string name="choose_date">Chọn ngày</string>
+    <string name="prize"> Giải </string>
+    <string name="province"> Tỉnh </string>
+
+</resources>
